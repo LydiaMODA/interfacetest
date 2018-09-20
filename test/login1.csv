@@ -1,0 +1,4 @@
+caseSeq,apiType,apiSeq,apiName,priority,url,function,purpose,parameter,expectValue
+C001,登陆,1,登陆,B,/v55/user/login,POST,正确参数校验,dialCode=86&loginno=13683199831&password=e10adc3949ba59abbe56e057f20f883e,"msg":"操作成功"
+C002,登陆,2,登陆,B,/v55/user/login,POST,正确参数校验,dialCode=86&loginno=13683199831&password=d14a41006f69350af3a066ff3a9e6bd1,"msg":"手机号和密码不匹配，再试试吧？"
+C003,登陆,3,登陆,B,/v55/user/login,POST,正确参数校验,dialCode=&loginno=13683199831&password=e10adc3949ba59abbe56e057f20f883e,"msg":"该手机号还没有注册过哦~"

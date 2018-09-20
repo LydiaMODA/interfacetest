@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1347" it="0" lt="1347" ct="1238" ts="1537434903458" s="false" lb="C001_1_登陆_正确参数校验" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="975" sby="399" sc="1" ec="1" ng="1" na="1" hn="AILIKUN-PC">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&quot;msg&quot;:&quot;操作成功&quot;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Tengine
+Content-Type: text/html;charset=UTF-8
+Content-Length: 38
+Connection: keep-alive
+Date: Thu, 20 Sep 2018 09:13:11 GMT
+Set-Cookie: JSESSIONID=F68E800F6A79EC4E4CECACF183FF5FEE; Path=/yxy-babyhealth-api; Secure; HttpOnly
+Content-Language: en-US
+Access-Control-Allow-Origin: 0
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: reqrefer,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-PINGOTHERn,yxyTokenContent,userID,token,t,sign,deviceno,birthday,clientversion,ostype,osversion,channel,usernick,userico,appcode,packageName,build_serial,android_id,expectedDate,hgestation,imei,prematureOpen,yxyskin,idfa,couponId,uid,topCallUserNum,topicId,body,from,req_refer
+Via: cache27.l2nu29-1[47,0], kunlun4.cn338[57,0]
+Timing-Allow-Origin: *
+EagleId: 7583cc0415374347917827839e
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip
+token: 75dd0af00ef242cea7b780540116cd52
+sign: f6a20c41a0d342f90f2102e15a753aee
+Content-Length: 73
+Host: api2.drcuiyutao.com
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+</requestHeader>
+  <responseData class="java.lang.String">&#xd;
+{&quot;code&quot;:0,&quot;msg&quot;:&quot;系统错误~&quot;}&#xd;
+&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">dialCode=86&amp;loginno=13683199831&amp;password=e10adc3949ba59abbe56e057f20f883e</queryString>
+  <java.net.URL>https://api2.drcuiyutao.com/v55/user/login</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="0" ts="1537434904867" s="true" lb="C002_2_登陆_正确参数校验" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="910" sby="399" sc="1" ec="0" ng="1" na="1" hn="AILIKUN-PC">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Tengine
+Content-Type: application/json;charset=UTF-8
+Content-Length: 93
+Connection: keep-alive
+Date: Thu, 20 Sep 2018 09:13:11 GMT
+Access-Control-Allow-Origin: 0
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: reqrefer,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-PINGOTHERn,yxyTokenContent,userID,token,t,sign,deviceno,birthday,clientversion,ostype,osversion,channel,usernick,userico,appcode,packageName,build_serial,android_id,expectedDate,hgestation,imei,prematureOpen,yxyskin,idfa,couponId,uid,topCallUserNum,topicId,body,from,req_refer
+Via: cache48.l2nu29-1[9,0], kunlun4.cn338[17,0]
+Timing-Allow-Origin: *
+EagleId: 7583cc0415374347919508216e
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip
+token: 75dd0af00ef242cea7b780540116cd52
+sign: f6a20c41a0d342f90f2102e15a753aee
+Content-Length: 73
+Host: api2.drcuiyutao.com
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;bscode&quot;:&quot;user.03&quot;,&quot;code&quot;:1,&quot;data&quot;:{},&quot;msg&quot;:&quot;手机号和密码不匹配，再试试吧？&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">dialCode=86&amp;loginno=13683199831&amp;password=d14a41006f69350af3a066ff3a9e6bd1</queryString>
+  <java.net.URL>https://api2.drcuiyutao.com/v55/user/login</java.net.URL>
+</httpSample>
+<httpSample t="78" it="0" lt="78" ct="0" ts="1537434904906" s="true" lb="C003_3_登陆_正确参数校验" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="900" sby="397" sc="1" ec="0" ng="1" na="1" hn="AILIKUN-PC">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Tengine
+Content-Type: application/json;charset=UTF-8
+Content-Length: 82
+Connection: keep-alive
+Date: Thu, 20 Sep 2018 09:13:12 GMT
+Access-Control-Allow-Origin: 0
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: reqrefer,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-PINGOTHERn,yxyTokenContent,userID,token,t,sign,deviceno,birthday,clientversion,ostype,osversion,channel,usernick,userico,appcode,packageName,build_serial,android_id,expectedDate,hgestation,imei,prematureOpen,yxyskin,idfa,couponId,uid,topCallUserNum,topicId,body,from,req_refer
+Via: cache10.l2et15-2[29,0], kunlun4.cn338[61,0]
+Timing-Allow-Origin: *
+EagleId: 7583cc0415374347919878321e
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip
+token: 75dd0af00ef242cea7b780540116cd52
+sign: f6a20c41a0d342f90f2102e15a753aee
+Content-Length: 71
+Host: api2.drcuiyutao.com
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;bscode&quot;:&quot;user.05&quot;,&quot;code&quot;:1,&quot;data&quot;:{},&quot;msg&quot;:&quot;该手机号还没有注册过哦~&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">dialCode=&amp;loginno=13683199831&amp;password=e10adc3949ba59abbe56e057f20f883e</queryString>
+  <java.net.URL>https://api2.drcuiyutao.com/v55/user/login</java.net.URL>
+</httpSample>
+
+</testResults>

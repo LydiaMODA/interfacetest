@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1333" it="0" lt="1333" ct="1179" ts="1537431265546" s="false" lb="C001_1_登陆_正确参数校验" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="976" sby="399" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&quot;msg&quot;:&quot;操作成功&quot;/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1537431267071" s="true" lb="C002_2_登陆_正确参数校验" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="910" sby="399" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="0" ts="1537431267127" s="true" lb="C003_3_登陆_正确参数校验" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="899" sby="397" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>
